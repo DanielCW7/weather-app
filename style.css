@@ -1,0 +1,87 @@
+
+body {
+    font-family: "poppins";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+    background-image: url("icons/sunny.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: ease all 2s;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(44, 44, 44)
+}
+
+#today-forecast {
+    border: solid red 1px;
+    display: flex;justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+form div {
+    margin: 20px;
+}
+
+#region,
+#state,
+#submit {
+    border-style: none;
+    padding: 10px 30px;
+    min-width: 100px;
+    border-radius: 50px;
+}
+
+#submit {
+   border: solid grey 3px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+#submit:hover {
+    border: solid rgb(153, 153, 153) 3px;
+    border-radius: 0px
+ }
+
+#next-week {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex: row;
+    flex: 1;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    max-height: 0px;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.5) 
+}
+
+#next-week li {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.9);
+    transition: ease all .5s;
+}
+
+.card img {
+    width: auto;
+    max-height: 80px
+}
